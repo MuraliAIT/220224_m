@@ -7,12 +7,20 @@
 </head>
 <body>
     <!-- login starts -->
-    <form action="#">
+    <h2>Login form</h2>
+    <form action="#" method="post" autocomplete="off" novalidate>
         <label for="username1">Username</label>
-        <input type="text" name="username" id="username"/>
-        <input type="password" name="userpwd" placeholder="Enter Password"/>
+        <input type="TEXT" name="username" id="username" required />
+        <input type="password" name="userpwd" placeholder="Enter Password" required/>
         <input type="submit" >
     </form>
     <!-- login ends -->
+
+    <!-- other form elements -->
+    <h2> Other form elements</h2>
+    <form enctype="multipart/form-data" action="someurl" method="get">
+        <input type="file" name="resume" />
+        <input type="submit" value="Create Account" formenctype="text/plain" formaction="changeurl" formmethod="post">
+    </form>
 </body>
 </html>

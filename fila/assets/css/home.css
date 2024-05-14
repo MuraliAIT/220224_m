@@ -1,0 +1,13 @@
+.baannerContainer img{
+    height: 300px;
+    position: relative;
+}
+.baannerContainer section{
+    position: absolute;
+    top: 175px;
+    left: 25%;
+}
+.baannerContainer h1{
+    font-size: 48px;
+    color: lightcoral;
+}
